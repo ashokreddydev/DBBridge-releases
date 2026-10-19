@@ -1,4 +1,4 @@
-# DBBridge â€” public Windows builds
+# DBBridge — public Windows builds
 
 **DBBridge** compares, migrates, and validates databases between **PostgreSQL** and **SQL Server**.
 
@@ -11,13 +11,13 @@ Application source code lives in a **private** repository and is not published h
 
 | | |
 |--|--|
-| **Latest release** | [Releases](https://github.com/ashokreddydev/DBBridge-releases/releases/latest) |
-| **Current build** | [DBBridge 0.1.2 Portable (Windows)](https://github.com/ashokreddydev/DBBridge-releases/releases/tag/v0.1.2-portable) |
-| **File** | `DBBridge-0.1.2-portable.exe` (Windows x64, portable) |
+| **Direct download** | [DBBridge-portable.exe](https://github.com/ashokreddydev/DBBridge-releases/releases/latest/download/DBBridge-portable.exe) |
+| **Latest release page** | [Releases](https://github.com/ashokreddydev/DBBridge-releases/releases/latest) |
+| **Platform** | Windows x64 portable (no installer) |
 
-1. Open the [latest release](https://github.com/ashokreddydev/DBBridge-releases/releases/latest).
-2. Under **Assets**, download `DBBridge-*-portable.exe`.
-3. Double-click the `.exe` to run â€” **no installer** required.
+1. Click **Direct download** (or open the [latest release](https://github.com/ashokreddydev/DBBridge-releases/releases/latest) and pick an asset).
+2. Double-click the `.exe` to run — **no installer** required.
+3. Versioned builds are also attached (e.g. `DBBridge-0.1.2-portable.exe`).
 
 > Only one public version is kept online. When a new build is published, older release tags are removed.
 
@@ -50,7 +50,7 @@ Email: **support@testforge.co.in**
 
 ## Privacy & security
 
-- This repo contains **release binaries and notes only** â€” not source code.
+- This repo contains **release binaries and notes only** — not source code.
 - Do not commit credentials into any DBBridge project.
 - Review [Safety & limits](https://dbbridge.testforge.co.in/safety) before production migrations (truncate, drops, cross-DB type mapping).
 
